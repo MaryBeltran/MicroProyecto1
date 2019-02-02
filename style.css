@@ -1,0 +1,117 @@
+
+/* Header */
+
+.header{
+    display: grid;
+}
+
+.header-banner{
+    background-color: rgb(231, 159, 219);
+    width: 100%;
+    height: 120px;
+    margin: 0;
+}
+
+.header-banner_tittle{
+    padding: 0 100px;
+}
+
+.header-navbar{
+    background-color: rgb(255, 0, 128);
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+    li{
+        float: left;
+    }
+    
+    li a{
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+  
+  
+  /* Body */
+
+.body{
+    background-image: url(ASSETS/ImagenFondoMadera.jpg);
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 120px - 100px);
+    display: inline-table;
+}
+
+.body-row{
+    display: flex;
+    text-align: justify;
+}
+
+
+.body-quiénSoy{
+
+}
+
+.body-quiénSoy_col-1{
+flex-basis: 40%;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.body-quiénSoy__col-2{
+    flex-basis: 60%;
+    padding: 0 50px;
+}
+
+.body-quiénSoy__col-2 h2{
+    padding: 0 300px 0;
+}
+.body-habilidades{
+
+}
+
+.body-habilidades__col-1{
+    flex-basis: 33.33%;
+    padding: 0 30px;
+}
+
+.body-habilidades__col-1 h2{
+    padding: 0 250px 0;
+}
+
+.body-misProyectos{
+
+}
+
+.body-misProyectos__col-1{
+
+}
+
+
+
+
+/*Footer*/
+.footer{
+    background-color: coral;
+    width: 100%;
+    height: 100px;
+}
+
+h2{
+    padding: 5px 30px;
+}
+
