@@ -1,21 +1,21 @@
 /* FONTS */
 @font-face{
     font-family: 'dirty';
-    src: url('FONTS/Dirty\ Brush.ttf');
+    src: url('./FONTS/Dirty\ Brush.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'magazine';
-    src: url('FONTS/Kids\ Magazine.ttf');
+    src: url('./FONTS/Kids\ Magazine.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'lova';
-    src: url('FONTS/Lova\ Valove\ Font\ by\ 7NTypes.otf');
+    src: url('./FONTS/Lova\ Valove\ Font\ by\ 7NTypes.otf');
     font-weight: normal;
     font-style: normal;
 }
