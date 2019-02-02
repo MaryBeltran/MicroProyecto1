@@ -1,4 +1,3 @@
-
 /* Header */
 
 .header{
@@ -52,6 +51,7 @@ ul{
     width: 100%;
     height: calc(100vh - 120px - 100px);
     display: inline-table;
+    color: white;
 }
 
 .body-row{
@@ -94,17 +94,17 @@ align-items: center;
 }
 
 .body-misProyectos{
-
 }
 
-.body-misProyectos__col-1{
-
+.body-misProyectos_col-1{
+    flex-basis: 25%;
+    padding: 0 50px;
 }
 
 
 
 
-/*Footer*/
+/Footer/
 .footer{
     background-color: coral;
     width: 100%;
@@ -115,3 +115,9 @@ h2{
     padding: 5px 30px;
 }
 
+.footer-col-1{
+    flex-basis: 33.33%;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+}
